@@ -127,3 +127,7 @@ async def root():
     </body>
     </html>
     """
+
+@app.get("/test")
+async test():
+    return {"test":"App is working"}
